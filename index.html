@@ -8,8 +8,8 @@
 </head>
 <body>
     <center>
-<div style="font-size: 35px; color: white; background-color: rgb(39, 22, 87); border: none; border-radius: 20px; ">Image Classification Model</div>
-<button style="font-size: 15px; color: white; background-color:  rgb(13, 13, 14);" type="button" onclick="init()">Start</button>
+    <div style="font-size: 35px; color: white; background-color: rgb(39, 22, 87); border: none; border-radius: 20px;" >Teachable Machine Image Model</div>
+<button style="font-size: 15px; color: white; background-color:  rgb(13, 13, 14);"type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
@@ -19,7 +19,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/F-gric7BG/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -68,6 +68,7 @@
     }
 </script>
 </center>
+
 
 </body>
 </html>
